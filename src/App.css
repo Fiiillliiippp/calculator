@@ -1,17 +1,26 @@
 .App {
   text-align: center;
 }
-
-.calculatodBody {
+.CalculatorBody {
   width: fit-content;
+  height: auto;
+  padding: 15px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+
+.btnBox {
+  width: 250px;
   height: fit-content;
   padding: 15px;
-  margin: 15px auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .equals {
-  width: 290px;
-  height: 55px;
   border: 1px solid black;
   margin: 10px auto;
   padding: 5px;
@@ -20,20 +29,20 @@
   font-size: 35px;
 }
 
-table {
-  margin: auto;  
-}
 
-td {
+.btn{
+  flex: 0 0 20%;
   border: 1px solid black;
-  width: 45px;
+  width: 50px;
   height: 35px;
-  text-align: center;
-  vertical-align: middle;
   cursor: pointer;
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-td:hover,
-td:active {
+.btn:hover,
+.btn:active {
   background-color: rgb(217, 225, 233);
 }
