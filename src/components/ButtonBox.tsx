@@ -10,11 +10,11 @@ type Props = {
 const ButtonBox = ({ btnsValue, calc, setCalc }: Props) => {
   return (
     <div>
-      <div className='btnBox'>
+      {/* <div className='btnBox'>
         {btnsValue.flat().map((btn, index) => (
           <CalcButton key={index} value={btn} calc={calc} setCalc={setCalc} />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
